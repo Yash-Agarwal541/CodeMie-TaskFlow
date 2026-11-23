@@ -21,6 +21,19 @@
       <button type="submit" class="add-form__button">Add</button>
     </form>
 
+    <div class="summary-bar">
+      <div id="task-summary" class="summary" aria-live="polite"></div>
+      <button id="clear-completed" type="button" class="clear-completed" disabled>Clear completed</button>
+    </div>
+
+    <input
+      id="search-input"
+      class="search__input"
+      type="text"
+      placeholder="Search tasks..."
+      autocomplete="off"
+    >
+
     <div class="filters" id="filters">
       <button type="button" class="filters__button is-active" data-filter="all">All</button>
       <button type="button" class="filters__button" data-filter="active">Active</button>

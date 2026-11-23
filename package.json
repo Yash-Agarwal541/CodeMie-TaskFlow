@@ -1,0 +1,13 @@
+{
+  "name": "codemie-taskflow",
+  "version": "1.0.0",
+  "description": "TaskFlow - a localStorage-backed task list with summary, filters, search, and clear-completed.",
+  "private": true,
+  "scripts": {
+    "test": "node docs/testing/run-playwright-tests.js",
+    "verify": "npm run test"
+  },
+  "devDependencies": {
+    "playwright": "^1.55.0"
+  }
+}

@@ -69,6 +69,55 @@ body {
   opacity: 0.9;
 }
 
+.summary-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.summary {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.clear-completed {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.clear-completed:hover {
+  color: var(--text);
+  border-color: var(--text-muted);
+}
+
+.clear-completed:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.search__input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.search__input:focus {
+  outline: 2px solid var(--accent);
+}
+
 .filters {
   display: flex;
   gap: 8px;
